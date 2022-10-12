@@ -12,7 +12,6 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/seniorstedu" element={<Home />} />
           <Route path="/project" element={<Project />} />
           <Route path="/who-are-we" element={<WhoAreWe />} />
         </Routes>
