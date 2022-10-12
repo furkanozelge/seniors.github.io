@@ -8,7 +8,7 @@ function Footer() {
         <br></br> 
         <br></br>
         <br></br>
-        <hr></hr>
+        
         <h3>It will be on all stores as soon as possible!</h3>
         <img src={require('./download.png')} width="300px" alt='logo' />
     </div>
