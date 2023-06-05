@@ -3,37 +3,55 @@ import { BsDownload } from "react-icons/bs";
 import "./Reports.css";
 
 const Reports = () => {
+  const openLinkInNewTab = (link) => {
+    window.open(link, "_blank");
+  };
 
   const analysis = () => {
-    window.location.href = "https://drive.google.com/file/d/1QUN_-KkTRycNk1ctDXfA8pzECGgmbCTQ/view?usp=drive_link";
-  }
+    openLinkInNewTab(
+      "https://drive.google.com/file/d/1QUN_-KkTRycNk1ctDXfA8pzECGgmbCTQ/view?usp=drive_link"
+    );
+  };
   const final = () => {
-    window.location.href = "https://drive.google.com/file/d/1CvnaubGwtsURh7XNa5YYIHEL6dU51g7p/view?usp=drive_link";
-  }
+    openLinkInNewTab(
+      "https://drive.google.com/file/d/1CvnaubGwtsURh7XNa5YYIHEL6dU51g7p/view?usp=drive_link"
+    );
+  };
   const groupinfo = () => {
-    window.location.href = "https://drive.google.com/file/d/1p2U3opBSg_PzaiCpq5633nJj8QGYPofI/view?usp=drive_link";
-  }
+    openLinkInNewTab(
+      "https://drive.google.com/file/d/1p2U3opBSg_PzaiCpq5633nJj8QGYPofI/view?usp=drive_link"
+    );
+  };
   const highlevel = () => {
-    window.location.href = "https://drive.google.com/file/d/15K4CSvRpczxL96GNYs6BmpbzSstv-bIH/view?usp=drive_link";
-  }
+    openLinkInNewTab(
+      "https://drive.google.com/file/d/15K4CSvRpczxL96GNYs6BmpbzSstv-bIH/view?usp=drive_link"
+    );
+  };
   const lowlevel = () => {
-    window.location.href = "https://drive.google.com/file/d/1B5auTxtChm7VcuaHyKBH7IuQEHXDP_5D/view?usp=drive_link";
-  }
+    openLinkInNewTab(
+      "https://drive.google.com/file/d/1B5auTxtChm7VcuaHyKBH7IuQEHXDP_5D/view?usp=drive_link"
+    );
+  };
   const specification = () => {
-    window.location.href = "https://drive.google.com/file/d/1ixIxZDOOoV2pmyImXXIfMinOuI4eVqs3/view?usp=drive_link";
-  }
+    openLinkInNewTab(
+      "https://drive.google.com/file/d/1ixIxZDOOoV2pmyImXXIfMinOuI4eVqs3/view?usp=drive_link"
+    );
+  };
   const proposal = () => {
-    window.location.href = "https://drive.google.com/file/d/1x6ie21Cod9VBGjppnXlWAN8R47uplFa0/view?usp=drive_link";
-  }
+    openLinkInNewTab(
+      "https://drive.google.com/file/d/1x6ie21Cod9VBGjppnXlWAN8R47uplFa0/view?usp=drive_link"
+    );
+  };
   const test = () => {
-    window.location.href = "https://drive.google.com/file/d/1u-qITTZvfOX0xF1DNI6eVnprRR51_GG4/view?usp=drive_link";
-  }
-
+    openLinkInNewTab(
+      "https://drive.google.com/file/d/1u-qITTZvfOX0xF1DNI6eVnprRR51_GG4/view?usp=drive_link"
+    );
+  };
 
   return (
     <div className="container">
       <div className="center">
-        <h2>You can download our all reports here !</h2>
+        <h2>You can download our all reports here!</h2>
         <br></br>
         <button className="pdf-button" onClick={final}>
           <BsDownload className="pdf-icon" /> Final Report PDF
@@ -59,7 +77,6 @@ const Reports = () => {
         <button className="pdf-button" onClick={groupinfo}>
           <BsDownload className="pdf-icon" /> Group Information Report PDF
         </button>
-
       </div>
     </div>
   );
