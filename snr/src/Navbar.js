@@ -10,6 +10,7 @@ export default function Navbar() {
       <ul>
         <CustomLink to="/project">What is Our Project?</CustomLink>
         <CustomLink to="/who-are-we">Who are We?</CustomLink>
+        <CustomLink to="/reports">Reports</CustomLink>
       </ul>
     </nav>
   )
