@@ -5,7 +5,7 @@ import ex4 from "../example4.png"
 
 export default function Pricing() {
   return (
-    <>
+    <div>
       <h2>What is Stable Diffusion?</h2>
       <h4>
         A text-to-image model using deep learning is called Stable Diffusion.
@@ -40,6 +40,6 @@ export default function Pricing() {
       <img src={ex2} alt="ex"width="200px"></img>
       <img src={ex3} alt="ex"width="200px"></img>
       <img src={ex4} alt="ex"width="200px"></img>
-    </>
+    </div>
   );
 }

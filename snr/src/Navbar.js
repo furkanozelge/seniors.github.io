@@ -3,7 +3,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom"
 export default function Navbar() {
   return (
     <nav className="nav">
-      <Link to="/" className="site-title">
+      <Link to="/project" className="site-title">
         <img src={require('./logo.png')} width="75px" alt='logo' />
         
       </Link>
